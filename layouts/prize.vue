@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import nbaHeaderPrize from '@/layouts/components/header-prize' // 引入組件
-import nbaFooter from '@/layouts/components/footer' // 引入組件
+import nbaHeaderPrize from '@/components/header-prize' // 引入組件
+import nbaFooter from '@/components/footer' // 引入組件
 
 export default {
   components: {
@@ -23,4 +23,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="stylus" scoped></style>

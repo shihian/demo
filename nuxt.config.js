@@ -63,15 +63,18 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '@/plugins/ga.js', ssr: false }],
+  plugins: [
+    { src: '@/plugins/ga.js', ssr: false },
+    { src: '@/plugins/swal.js', ssr: false }
+  ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/eslint-module',
-    'vue-sweetalert2/nuxt'
+    '@nuxtjs/eslint-module'
+    // 'vue-sweetalert2/nuxt'
   ],
   /*
    ** Axios module configuration
