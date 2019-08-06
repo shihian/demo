@@ -1,4 +1,5 @@
 <template>
+  <!-- template 底下只允許一個 DOM -->
   <div class="button-group">
     <span
       v-for="(button, index) in buttons"
