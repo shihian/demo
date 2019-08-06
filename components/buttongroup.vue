@@ -1,5 +1,4 @@
 <template>
-  <!-- template 底下只允許一個 DOM -->
   <div class="button-group">
     <span
       v-for="(button, index) in buttons"
@@ -30,25 +29,10 @@ export default {
     prize() {
       window.open('prize')
     },
-    // alert 注意事項 -1
-    // explain() {
-    //   this.$swal({
-    //     title: '注意事項-1',
-    //     html: `<div class="inline_content">
-    //         <strong>
-    //           <ul>
-    //             <li>NBA 聯盟相關的人員及球隊的任何成員、活動任何型式的贊助商以及宣傳的相關人員(包括相關的代理商與公關公司)，或者是任何跟上述這些人員相關的家庭或同居成員皆不能參加此活動或者是贏取活動獎項。</li>
-    //           </ul>
-    //         </strong>
-    //       </div>`,
-    //     showCloseButton: true,
-    //     confirmButtonText: '關閉'
-    //   })
-    // },
-    // alert 注意事項 -2
+    // alert 注意事項
     explain() {
       this.$swal({
-        title: '注意事項-2',
+        title: '注意事項',
         html: `<div class="inline_content">
             <strong>
               <ul>
